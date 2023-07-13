@@ -449,6 +449,9 @@ header .navbar ul li a:hover {
     .about .row .content .box-container {
       gap: 0;
     }
+    .cvbtn{
+      margin-top: -6.3%;
+    }
   }
 
   .skills {
