@@ -1,0 +1,152 @@
+body{
+    background: hsl(234, 29%, 20%);
+    font-size: 11px; 
+}
+.card1{
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:900px;
+    height:550px;
+    padding:50px;
+    background-color: #fff;
+    border-radius:50px;
+}
+.info svg{
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    transform: translate(20%,-50%);
+    right: 100px;
+}
+.info h1{
+    position: fixed;
+    left: 40px;
+    bottom: 450px;
+    width: 300px;
+    font-size: 50px;
+}
+.info p{
+    position: absolute;
+    left: 40px;
+    bottom: 400px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 450px;
+}
+.info2 svg{
+    position: absolute;
+    left: 40px;
+    bottom: 380px;
+}
+.info2 h4{
+    position: absolute;
+    bottom: 360px;
+    left: 80px;
+    font-size: 15px;
+}
+.info3 svg{
+    position: absolute;
+    left: 40px;
+    bottom: 340px;
+}
+.info3 h4{
+    position: absolute;
+    bottom: 320px;
+    left: 80px;
+    font-size: 15px;
+}
+.info4 svg{
+    position: absolute;
+    left: 40px;
+    bottom: 300px;
+}
+.info4 h4{
+    position: absolute;
+    bottom: 280px;
+    left: 80px;
+    font-size: 15px;
+}
+.info5 h1{
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+    font-size: 15px;
+}
+input{
+    position: absolute;
+    bottom: 140px;
+    left: 40px;
+    border-radius:10px;
+    height: 50px;
+    width: 400px;
+}
+button{
+    position: absolute;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    bottom: 70px;
+    left: 38px;
+    border-radius:10px;
+    height: 50px;
+    width: 410px;
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+.hide{
+    display: none;
+}
+.card2{
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    height:400px;
+    padding:40px;
+    background-color: #fff;
+    border-radius:50px;
+}
+.card2 svg{
+    width: 50px;
+    height: 50px;
+}
+.card2 h1 {
+    position: absolute;
+    left: 50px;
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+}
+.card2 p{
+    position: absolute;
+    font-size: 15px;
+    left: 10px;
+    bottom: 120px;
+    padding:40px;
+}
+.card2 button {
+    display: block;
+    width: 80%;
+    height: 50px;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.card2 button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
